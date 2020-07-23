@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="./dist/css/style.css">
     <title>Mailing list</title>
 </head>
@@ -15,15 +16,15 @@
         <div class="form-wrapper">
             <h4 class="form-wrapper__subtitle">Join the mailing list</h4>
             <form class="form-wrapper__form">
-                <input class="form__input" type="text" placeholder="Your Email">
+                <input id="input" class="form__input" type="text" placeholder="Your Email" value="marius@marius.lt">
                 <button class="form__btn" type="submit">Submit</button>
             </form>
-            <p class="form-wrapper__msg--error">error</p>
+            <p class="form-wrapper__msg--error"></p>
         </div>
     </div>
 
 
-
+    <script src="./dist/js/app.js"></script>
 </body>
 
 </html>
