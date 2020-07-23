@@ -7,3 +7,69 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+// Vars 
+$main-color: #d7d712;
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title--page {
+    margin: 30px 0;
+}
+
+.form-wrapper {
+    background-color: $main-color;
+    max-width: 300px;
+    padding: 15px;
+    // border: 1px solid #000;
+    &__subtitle {
+        font-weight: 700;
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    &__input-block {
+        position: relative;
+    }
+    &__msg--error {
+        margin-top: 7px;
+        text-align: center;
+        color: tomato;
+    }
+    &__msg--success {
+        color: green;
+    }
+    &__form {
+        position: relative;
+    }
+}
+
+.form {
+    &__input {
+        background-color: rgba(255, 255, 255, 0.479);
+        border: 1px solid rgb(119, 119, 119);
+        border-radius: 8px;
+        padding: 16px 50px 16px 20px;
+        width: 100%;
+        font-size: 15px;
+        &::placeholder {
+            font-size: 15px;
+            color: #333;
+        }
+    }
+    &__btn {
+        border: none;
+        box-shadow: none;
+        background-color: #000;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 7px;
+        color: #fff;
+        padding: 10px;
+        border-radius: 6px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}

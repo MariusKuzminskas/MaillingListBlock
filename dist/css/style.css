@@ -5,3 +5,54 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.title--page {
+  margin: 30px 0; }
+
+.form-wrapper {
+  background-color: #d7d712;
+  max-width: 300px;
+  padding: 15px; }
+  .form-wrapper__subtitle {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 25px; }
+  .form-wrapper__input-block {
+    position: relative; }
+  .form-wrapper__msg--error {
+    margin-top: 7px;
+    text-align: center;
+    color: tomato; }
+  .form-wrapper__msg--success {
+    color: green; }
+  .form-wrapper__form {
+    position: relative; }
+
+.form__input {
+  background-color: rgba(255, 255, 255, 0.479);
+  border: 1px solid #777777;
+  border-radius: 8px;
+  padding: 16px 50px 16px 20px;
+  width: 100%;
+  font-size: 15px; }
+  .form__input::placeholder {
+    font-size: 15px;
+    color: #333; }
+
+.form__btn {
+  border: none;
+  box-shadow: none;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 7px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer; }
