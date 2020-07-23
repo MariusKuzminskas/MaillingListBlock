@@ -32,9 +32,9 @@ post data to the given api
 ## Authors
 
 Marius Kuzminskas
-[Personal-website](https://modernisvetaine.lt)
+[Personal-website](https://modernisvetaine.lt?target=_blank)
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [email-validation](https://www.w3resource.com/javascript/form/email-validation.php)
+* [email-validation](https://www.w3resource.com/javascript/form/email-validation.php?target=_blank)
