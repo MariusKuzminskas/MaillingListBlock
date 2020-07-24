@@ -36,7 +36,6 @@ function sendPostRequest(validEmail) {
             }
         })
         .then(function(response) {
-            console.log(response.status);
             if (response.status > 200 && response.status < 300) {
                 inputEl.value = '';
                 errorEl.innerText = 'Thank you. Your email has been sent';
